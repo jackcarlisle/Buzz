@@ -1,3 +1,34 @@
 body {
+  background-color: lightgrey;
   text-align: center;
+  font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+}
+
+.box-spacing {
+  padding: 1.5em;
+  width: 20%;
+  display: inline-block;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+.drop {
+  width: 41%;
+  font-size: 1em;
+  border-color: lightgrey;
+  padding: 1em;
+}
+
+.dropdown-container {
+  padding-bottom: 1.5em;
+  color: grey;
+}
+
+.input-container {
+  padding-bottom: 0.5em;
+}
+
+.submit {
+  width: 42%;
+  padding: 1em;
 }

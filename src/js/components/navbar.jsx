@@ -4,7 +4,7 @@ var NavBar = React.createClass({
   render: function() {
       return (
         <div className="navbar">
-          <div>logo placeholder</div>
+          <div>BUZZ</div>
         </div>
       );
   }
