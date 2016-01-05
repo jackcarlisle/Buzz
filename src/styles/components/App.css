@@ -1,7 +1,8 @@
 body {
-  background-color: lightgrey;
+  background-image: url("https://images.unsplash.com/photo-1444728399417-08d2aa39e6f4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e58dcf44c15c4b0b9457e44670be7c6e");
   text-align: center;
   font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+  color: white;
 }
 
 .box-spacing {
@@ -31,4 +32,9 @@ body {
 .submit {
   width: 42%;
   padding: 1em;
+  margin-bottom: 3em;
+}
+
+.slogan-container {
+  padding-bottom: 3em;
 }
