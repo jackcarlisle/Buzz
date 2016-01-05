@@ -4,7 +4,7 @@ var NavBar = React.createClass({
   render: function() {
       return (
         <div className="navbar">
-          <div>HAVA</div>
+          <h4>HAVA</h4>
         </div>
       );
   }
