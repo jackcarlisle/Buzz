@@ -2,8 +2,9 @@ import React from 'react';
 import Formsy from 'formsy-react';
 import { Input } from 'formsy-react-components';
 
-let NavBar  = require('../navbar.jsx');
-let Content = require('../content.jsx');
+let NavBar     = require('../navbar.jsx');
+let Content    = require('../content.jsx');
+let HowItWorks = require('../how-it-works.jsx');
 
 let Home = React.createClass({
   render: function() {
@@ -11,7 +12,7 @@ let Home = React.createClass({
       <div>
         <NavBar />
         <Content />
-        <h1>Hello World</h1>
+        <HowItWorks />
       </div>
     );
   }
