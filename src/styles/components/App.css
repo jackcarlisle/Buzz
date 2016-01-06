@@ -76,10 +76,12 @@ body {
   width: 42%;
   padding: 1em;
   margin-bottom: 3em;
+  background-color: #DBDBDB;
 }
 
 .slogan-container {
   padding-bottom: 3em;
+  padding-top: 3em;
 }
 
 .text-container {
