@@ -32,7 +32,6 @@ let Content = React.createClass({
     this.setState({
       detailsSubmitted: true
     });
-    console.log(this.state.firstName);
   },
 
   handleSubmit: function(txt) {
@@ -41,13 +40,14 @@ let Content = React.createClass({
   handleChange: function(name, event) {
     var change = {};
     change[name] = event.target.value;
-    this.setState(change);
-    this.handleSubmit(change);
-    console.log(this.state.firstName);
-    console.log(this.state.lastName);
-    console.log(this.state.email);
-    console.log(this.state.postcode);
-    console.log(this.state.survey);
+    this.setState(change, ()=>{
+      console.log(this.state.firstName);
+      console.log(this.state.lastName);
+      console.log(this.state.email);
+      console.log(this.state.postcode);
+      console.log(this.state.survey);
+    });
+
 
   },
 
