@@ -1,5 +1,6 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1444728399417-08d2aa39e6f4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e58dcf44c15c4b0b9457e44670be7c6e");
+  background-attachment: fixed;
   text-align: center;
   font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, Tahoma, Geneva, sans-serif;
   color: white;
@@ -27,6 +28,8 @@ body {
 
 .icon {
   padding-bottom: 3em;
+  width:2em;
+  height:2em;
 }
 
 .input-container {
