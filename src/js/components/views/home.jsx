@@ -12,7 +12,7 @@ let Home = React.createClass({
     return (
       <div>
         <NavBar />
-        <Content />
+        <Content url="/submitted" />
         <HowItWorks />
         <Social />
       </div>
