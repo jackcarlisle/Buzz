@@ -24,17 +24,61 @@ let Content = React.createClass({
       lastName: '',
       email: '',
       postcode: '',
-      survey: '',
+      survey: ''
     };
   },
 
-  submitDetails: function() {
+  submitDetails: function(event) {
+    event.preventDefault();
     this.setState({
       detailsSubmitted: true
     });
   },
 
-  handleSubmit: function(txt) {
+  handleSubmit: function(event) {
+    event.preventDefault();
+    var firstName = this.state.firstName.trim();
+    var lastName  = this.state.lastName.trim();
+    var email     = this.state.email.trim();
+    var postcode  = this.state.postcode.trim();
+    var survey    = this.state.survey.trim();
+
+    var data = {
+      'FirstName': firstName,
+      'LastName' : lastName,
+      'Email'     : email,
+      'Postcode'  : postcode,
+      'Survey'    : survey
+    };
+
+    //TODO request to server
+    console.log(data);
+    $.ajax({
+      url: this.props.url,
+      type: 'POST',
+      data: data,
+      success: function(data) {
+        this.setState({data: data});
+        console.log(data);
+      }.bind(this),
+      error: function(xhr, status, err) {
+        console.error(this.props.url, status, err.toString());
+      }.bind(this)
+    });
+    console.log("AJAX END");
+
+    if(!firstName || !lastName || !email || !postcode || !survey) {
+      return;
+    }
+    this.setState({
+      detailsSubmitted: true,
+      firstName: '',
+      lastName: '',
+      email: '',
+      postcode: '',
+      survey: ''
+    });
+
   },
 
   handleChange: function(name, event) {
@@ -47,7 +91,7 @@ let Content = React.createClass({
       console.log(this.state.postcode);
       console.log(this.state.survey);
     });
-
+//setState is asynchronous, therefore it takes a callback where you can log things after it's changed
 
   },
 
@@ -61,7 +105,7 @@ let Content = React.createClass({
 
     var submitForm = (
       <div className='form-group'>
-        <form id='sign_up' method='POST' action=''>
+        <form id='sign_up' onSubmit={this.handleSubmit}>
           <div className='input-container'>
             <div className='row'>
               <input
@@ -118,7 +162,7 @@ let Content = React.createClass({
               </select>
             </div>
           </div>
-          <button onSubmit={this.submitDetails} type='submit' className='btn btn-md submit'>Submit your details!</button>
+          <button type='submit' className='btn btn-md submit'>Submit your details!</button>
         </form>
       </div>
     );
