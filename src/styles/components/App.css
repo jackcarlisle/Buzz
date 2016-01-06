@@ -28,6 +28,8 @@ body {
 
 .icon {
   padding-bottom: 3em;
+  width:2em;
+  height:2em;
 }
 
 .input-container {
