@@ -1,7 +1,7 @@
 body {
   background-image: url("https://images.unsplash.com/photo-1444728399417-08d2aa39e6f4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e58dcf44c15c4b0b9457e44670be7c6e");
   text-align: center;
-  font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+  font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, Tahoma, Geneva, sans-serif;
   color: white;
 }
 
@@ -25,8 +25,24 @@ body {
   color: grey;
 }
 
+.icon {
+  padding-bottom: 3em;
+}
+
 .input-container {
   padding-bottom: 0.5em;
+}
+
+.instruction-container {
+  border-style: solid;
+  width: 20em;
+  height: 20em;
+  display: inline-block;
+  margin: 1em;
+  padding-top: 5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+
 }
 
 .icon-in {
@@ -48,6 +64,11 @@ body {
   margin-left: 0.3em;
 }
 
+.replacement-text {
+  padding-bottom: 8.2em;
+  padding-top: 5em;
+}
+
 .submit {
   width: 42%;
   padding: 1em;
@@ -56,9 +77,15 @@ body {
 
 .slogan-container {
   padding-bottom: 3em;
-  padding-top: 3em;
+}
+
+.text-container {
+  text-align: center;
+  width: 100%;
+  padding-top: 2em;
 }
 
 .works-container {
-  padding-bottom: 8em;
+  padding-bottom: 3em;
+
 }

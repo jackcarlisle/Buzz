@@ -169,7 +169,10 @@ let Content = React.createClass({
 
 
     var submittedText = (
-      <div>Thank you!</div>
+      <div className='replacement-text'>
+      <h3>Thank you for joining us!</h3>
+      <div>We'll be in touch...</div>
+      </div>
     );
 
 

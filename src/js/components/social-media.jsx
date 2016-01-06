@@ -3,7 +3,7 @@ import React from 'react';
 let SocialMediaLinks = React.createClass({
   render: function() {
     return (
-      <div className='row'>
+      <div className='row social'>
         <a href="https://www.instagram.com/?hl=en">
           <img className='icon-in' src="https://cdn1.iconfinder.com/data/icons/simple-icons/4096/instagram-4096-black.png"/>
         </a>
