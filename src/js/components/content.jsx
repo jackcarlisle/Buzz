@@ -39,7 +39,7 @@ let Content = React.createClass({
 
   sendDetailsToDatabase: function(data) {
     var idKey = new Date();
-    var database = new Firebase('https://shining-heat-9058.firebaseio.com/' + idKey);
+    var database = new Firebase('https://amber-torch-6337.firebaseio.com/' + idKey);
     var uniqueIdEntry = database.push();
     return uniqueIdEntry.set(data);
   },
