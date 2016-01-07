@@ -76,6 +76,11 @@ body {
   padding-top: 5em;
 }
 
+.row {
+  width: 100%;
+  margin-left: 0.05em;
+}
+
 .submit {
   width: 42%;
   padding: 1em;
@@ -105,7 +110,7 @@ body {
 
   .box-spacing {
     padding: 1.5em;
-    width: 40%;
+    width: 45%;
     display: inline-block;
     margin: 0.5em;
     border-radius: 5px;
@@ -117,11 +122,11 @@ body {
 
   .submit {
     margin-bottom: 0.5em;
-    width: 88%;
+    width: 93%;
   }
 
   .drop {
-    width: 80%;
+    width: 93%;
   }
 
   .text-container {
