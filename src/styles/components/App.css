@@ -82,10 +82,14 @@ body {
 }
 
 .submit {
-  width: 42%;
+  width: 41.25%;
   padding: 1em;
   margin-bottom: 3em;
-  background-color: #DBDBDB;
+  background-color: #474747;
+}
+
+.submit:hover {
+  color: lightgrey;
 }
 
 .slogan-container {
