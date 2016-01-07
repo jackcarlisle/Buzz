@@ -76,6 +76,11 @@ body {
   padding-top: 5em;
 }
 
+.row {
+  width: 100%;
+  margin-left: 0.05em;
+}
+
 .submit {
   width: 42%;
   padding: 1em;
@@ -96,5 +101,40 @@ body {
 
 .works-container {
   padding-bottom: 3em;
+}
 
+@media screen and (max-width: 959px) {
+  .input-container {
+    width: 100%;
+  }
+
+  .box-spacing {
+    padding: 1.5em;
+    width: 45%;
+    display: inline-block;
+    margin: 0.5em;
+    border-radius: 5px;
+  }
+
+  #sign_up {
+    padding-bottom: 0em;
+  }
+
+  .submit {
+    margin-bottom: 0.5em;
+    width: 93%;
+  }
+
+  .drop {
+    width: 93%;
+  }
+
+  .text-container {
+    padding-top: 0.5em;
+  }
+
+  .slogan-container {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
