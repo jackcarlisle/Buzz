@@ -1,4 +1,6 @@
 import React from 'react';
+import Firebase from 'firebase';
+
 
 let Slogan = React.createClass({
   render: function() {
@@ -35,13 +37,20 @@ let Content = React.createClass({
     });
   },
 
+  sendDetailsToDatabase: function(data) {
+    var idKey = new Date();
+    var database = new Firebase('https://shining-heat-9058.firebaseio.com/' + idKey);
+    var uniqueIdEntry = database.push();
+    uniqueIdEntry.set(data);
+  },
+
   handleSubmit: function(event) {
     event.preventDefault();
-    var firstName = this.state.firstName.trim();
-    var lastName  = this.state.lastName.trim();
-    var email     = this.state.email.trim();
-    var postcode  = this.state.postcode.trim();
-    var survey    = this.state.survey.trim();
+    var firstName = this.preventScriptInjection(this.state.firstName).trim();
+    var lastName  = this.preventScriptInjection(this.state.lastName).trim();
+    var email     = this.preventScriptInjection(this.state.email).trim();
+    var postcode  = this.preventScriptInjection(this.state.postcode).trim();
+    var survey    = this.preventScriptInjection(this.state.survey).trim();
 
     var data = {
       'FirstName': firstName,
@@ -51,7 +60,9 @@ let Content = React.createClass({
       'Survey'    : survey
     };
 
-    //TODO request to server
+    this.sendDetailsToDatabase(data);
+
+    //TODO request to server - sending the form data to the backend
     console.log(data);
     $.ajax({
       url: this.props.url,
@@ -81,15 +92,20 @@ let Content = React.createClass({
 
   },
 
+  preventScriptInjection: function(string) {
+    var cleanString = string.replace(/<.*>/g, '');
+    return cleanString;
+  },
+
   handleChange: function(name, event) {
     var change = {};
-    change[name] = event.target.value;
-    this.setState(change, ()=>{
-      console.log(this.state.firstName);
-      console.log(this.state.lastName);
-      console.log(this.state.email);
-      console.log(this.state.postcode);
-      console.log(this.state.survey);
+    change[name] = this.preventScriptInjection(event.target.value);
+    this.setState(change, () => {
+      console.log(this.preventScriptInjection(this.state.firstName));
+      console.log(this.state.lastName.replace(/<.*>/g, ''));
+      console.log(this.state.email.replace(/<.*>/g, ''));
+      console.log(this.state.postcode.replace(/<.*>/g, ''));
+      console.log(this.state.survey.replace(/<.*>/g, ''));
     });
 //setState is asynchronous, therefore it takes a callback where you can log things after it's changed
 
@@ -97,11 +113,11 @@ let Content = React.createClass({
 
   render: function() {
 
-    var firstName = this.state.firstName;
-    var lastName  = this.state.lastName;
-    var email     = this.state.email;
-    var postcode  = this.state.postcode;
-    var survey    = this.state.survey;
+    var firstName = this.preventScriptInjection(this.state.firstName);
+    var lastName  = this.preventScriptInjection(this.state.lastName);
+    var email     = this.preventScriptInjection(this.state.email);
+    var postcode  = this.preventScriptInjection(this.state.postcode);
+    var survey    = this.preventScriptInjection(this.state.survey);
 
     var submitForm = (
       <div className='form-group'>
