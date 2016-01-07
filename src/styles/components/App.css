@@ -26,6 +26,16 @@ body {
   color: grey;
 }
 
+.email {
+  text-decoration: underline;
+  margin-bottom: 0.5em;
+}
+
+.go-on {
+  margin-bottom: 2em;
+
+}
+
 .icon {
   padding-bottom: 3em;
   width:2em;
