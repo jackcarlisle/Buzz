@@ -41,7 +41,7 @@ let Content = React.createClass({
     var idKey = new Date();
     var database = new Firebase('https://shining-heat-9058.firebaseio.com/' + idKey);
     var uniqueIdEntry = database.push();
-    uniqueIdEntry.set(data);
+    return uniqueIdEntry.set(data);
   },
 
   handleSubmit: function(event) {
@@ -63,6 +63,7 @@ let Content = React.createClass({
     this.sendDetailsToDatabase(data);
 
     //TODO request to server - sending the form data to the backend
+    //IGNORE AJAX REQUEST BELOW - used only as a learning example
     console.log(data);
     $.ajax({
       url: this.props.url,
