@@ -109,6 +109,7 @@ body {
 .slogan-container {
   padding-bottom: 2em;
   padding-top: 3em;
+  text-align: center;
 }
 
 .slogan-header {
@@ -129,7 +130,7 @@ body {
   padding-bottom: 3em;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 400px) {
   .input-container {
     width: 100%;
   }
