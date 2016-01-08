@@ -68,7 +68,7 @@ let Content = React.createClass({
 
     //TODO request to server - sending the form data to the backend
     //IGNORE AJAX REQUEST BELOW - used only as a learning example
-    console.log(data);
+    // console.log(data);
     $.ajax({
       url: this.props.url,
       type: 'POST',
@@ -81,7 +81,7 @@ let Content = React.createClass({
         console.error(this.props.url, status, err.toString());
       }.bind(this)
     });
-    console.log("AJAX END");
+    // console.log("AJAX END");
 
     if(!firstName || !lastName || !email || !postcode || !survey) {
       return;
@@ -106,11 +106,11 @@ let Content = React.createClass({
     var change = {};
     change[name] = this.preventScriptInjection(event.target.value);
     this.setState(change, () => {
-      console.log(this.preventScriptInjection(this.state.firstName));
-      console.log(this.state.lastName.replace(/<.*>/g, ''));
-      console.log(this.state.email.replace(/<.*>/g, ''));
-      console.log(this.state.postcode.replace(/<.*>/g, ''));
-      console.log(this.state.survey.replace(/<.*>/g, ''));
+      // console.log(this.preventScriptInjection(this.state.firstName));
+      // console.log(this.state.lastName.replace(/<.*>/g, ''));
+      // console.log(this.state.email.replace(/<.*>/g, ''));
+      // console.log(this.state.postcode.replace(/<.*>/g, ''));
+      // console.log(this.state.survey.replace(/<.*>/g, ''));
     });
 //setState is asynchronous, therefore it takes a callback where you can log things after it's changed
 
