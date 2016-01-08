@@ -10,7 +10,7 @@ let Slogan = React.createClass({
         <h3>Welcome to the Hava App!</h3>
         <div>You've caught us before we are ready!<br/>
         But don't worry, very soon we will be able to provide you<br/>
-      with the best bars at the best rates!</div>
+      with the best bars in your area at even better rates!</div>
       </div>
     );
   }
