@@ -14,6 +14,10 @@ body {
   border-radius: 5px;
 }
 
+.buffer {
+
+}
+
 .drop {
   width: 41%;
   font-size: 1em;
@@ -103,8 +107,16 @@ body {
 }
 
 .slogan-container {
-  padding-bottom: 3em;
+  padding-bottom: 2em;
   padding-top: 3em;
+}
+
+.slogan-header {
+  padding-bottom: 1em;
+}
+
+.slogan-text {
+  font-size: 1.1em;
 }
 
 .text-container {
@@ -150,5 +162,13 @@ body {
   .slogan-container {
     margin-left: 0.5em;
     margin-right: 0.5em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+  }
+
+  .slogan-text {
+    width: 80%;
+    margin-left: 2em;
+    font-size: 1em;
   }
 }

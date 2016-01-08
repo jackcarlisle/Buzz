@@ -6,11 +6,15 @@ let Slogan = React.createClass({
   render: function() {
     return (
       <div className='slogan-container'>
-        <h1>Well well, come for a sneaky peek you cheeky rascal?</h1>
-        <h3>Welcome to the Hava App!</h3>
-        <div>You've caught us before we are ready!<br/>
-        But don't worry, very soon we will be able to provide you<br/>
-      with the best bars at the best rates!</div>
+        <div className='slogan-header'>
+          <h1>Well well, come for a sneaky peek you cheeky rascal?</h1>
+          <h3>Welcome to the Hava App!</h3>
+        </div>
+        <div className='slogan-text'>
+          <p>You've caught us before we are ready!
+          But don't worry, very soon we will be able to provide you
+          with the best bars in your area at even better rates!</p>
+        </div>
       </div>
     );
   }

@@ -11,15 +11,17 @@ let HowItWorks = React.createClass({
           <div className='text-container'>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-flash btn-lg icon'></div>
-                <div>Our Hava bars will notify you when they have reduced their prices.</div>
+                <div>Our bars will notify you when they have a special offer for Hava users</div>
+                <br/>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-phone btn-lg icon'></div>
-                <div>Then all you have to do is show the App at the bar and Hava great time on us.</div>
+                <div>Then all you have to do is make your way there and show the Hava app when ordering</div>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-glass btn-lg icon'></div>
-                <div>The rest is up to you! filler text filler text filler text filler text</div>
+                <div>The rest is up to you, but Hava great time on us! (see what we did there...)</div>
+                <br/>
               </div>
             </div>
           </div>
