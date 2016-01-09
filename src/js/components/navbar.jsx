@@ -4,7 +4,7 @@ var NavBar = React.createClass({
   render: function() {
       return (
         <div className="navibar pull-right">
-          <h4>HAVA</h4>
+          <h3>HAVA</h3>
         </div>
       );
   }
