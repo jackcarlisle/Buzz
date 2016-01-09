@@ -81,8 +81,10 @@ body {
   margin-left: 0.3em;
 }
 
-.navibar h4 {
-  padding-right: 1em;
+.navibar h3 {
+  padding-right: 0.5em;
+  font-family: "Trench";
+  font-size: 5em;
 }
 
 .replacement-text {
@@ -108,7 +110,7 @@ body {
 
 .slogan-container {
   padding-bottom: 2em;
-  padding-top: 3em;
+  padding-top: 7em;
   text-align: center;
 }
 
@@ -156,6 +158,16 @@ body {
     width: 93%;
   }
 
+  .navibar {
+    text-align: center;
+    width: 100%
+  }
+
+  .navibar h3 {
+    font-size: 3em;
+    padding-left: 0.5em;
+  }
+
   .text-container {
     padding-top: 0.5em;
   }
@@ -164,7 +176,7 @@ body {
     margin-left: 0.5em;
     margin-right: 0.5em;
     padding-bottom: 1em;
-    padding-top: 2em;
+    padding-top: 4em;
   }
 
   .slogan-text {
