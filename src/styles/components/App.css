@@ -81,10 +81,13 @@ body {
   margin-left: 0.3em;
 }
 
-.navibar h3 {
+.navibar img {
   padding-right: 0.5em;
+  padding-top: 0.5em;
   font-family: "Trench";
   font-size: 5em;
+  width: 3.2em;
+  height: 1.1em;
 }
 
 .replacement-text {
@@ -163,9 +166,11 @@ body {
     width: 100%
   }
 
-  .navibar h3 {
-    font-size: 3em;
+  .navibar img {
+    font-size: 4em;
     padding-left: 0.5em;
+    width: 3em;
+    height: 1em;
   }
 
   .text-container {
