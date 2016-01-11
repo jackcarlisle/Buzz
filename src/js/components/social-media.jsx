@@ -6,7 +6,7 @@ let SocialMediaLinks = React.createClass({
     return (
       <div>
         <h4>Are you a business? Get on our radar!</h4>
-        <div className='email'>Email us at havaldn@gmail.com</div>
+        <div className='email'>Email us at office@hava-app.com</div>
         <div className='go-on'>do it...you know you want to</div>
         <div className='row social'>
           <a href="https://www.instagram.com/thehavaapp/">
