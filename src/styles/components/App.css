@@ -163,14 +163,14 @@ body {
 
   .navibar {
     text-align: center;
-    width: 100%
+    width: 100%;
+    padding-bottom: 2em;
   }
 
   .navibar img {
-    font-size: 4em;
     padding-left: 0.5em;
-    width: 3em;
-    height: 1em;
+    width: 3.2em;
+    height: 1.1em;
   }
 
   .text-container {
