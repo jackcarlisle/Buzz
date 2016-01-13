@@ -7,7 +7,7 @@ let Slogan = React.createClass({
     return (
       <div className='slogan-container'>
         <div className='logo-image'>
-          <img src='https://cloud.githubusercontent.com/assets/12450298/12240455/6bd7fc9a-b885-11e5-81e9-9975a18e6171.png'/>
+          <img src='https://cloud.githubusercontent.com/assets/12450298/12289028/ee26d8fa-b9d0-11e5-8af3-0b37f9d26960.png'/>
         </div>
         <div className='slogan-header'>
           <h1>Well well, come for a sneaky peek you cheeky rascal?</h1>
