@@ -15,8 +15,8 @@ let Slogan = React.createClass({
         </div>
         <div className='slogan-text'>
           <p>You've caught us before we are ready!
-          But don't worry, very soon we will be able to provide you
-          with the best bars in your area at even better rates!</p>
+          But don't worry, our pilot is coming very soon to South London, when we will
+          be able to show you with the best bars in the area at even better rates!</p>
         </div>
       </div>
     );
