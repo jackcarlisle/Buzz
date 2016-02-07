@@ -8,13 +8,12 @@ let Slogan = React.createClass({
           <img src='https://cloud.githubusercontent.com/assets/12450298/12289028/ee26d8fa-b9d0-11e5-8af3-0b37f9d26960.png'/>
         </div>
         <div className='slogan-header'>
-          <h1>Well well, come for a sneaky peek you cheeky rascal?</h1>
-          <h3>Welcome to the Hava App!</h3>
+          <h1>Bored of being stuck inside, flicking through your phone? Thought so.</h1>
+          <h3>That's where we come in! It's time to get out there you cheeky rascal...</h3>
+          <h2>Welcome to the Hava App!</h2>
         </div>
         <div className='slogan-text'>
-          <p>You've caught us before we are ready!
-          But don't worry, our pilot is coming very soon to South London, when we will
-          be able to show you with the best bars in the area at even better rates!</p>
+          <p>Join us for our March pilot in SW London, when we will give you a reason to stop being a hermit and get out with your mates!</p>
         </div>
       </div>
     );
