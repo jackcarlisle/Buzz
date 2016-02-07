@@ -15,7 +15,8 @@ body {
 }
 
 .buffer {
-
+  margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .drop {
@@ -52,6 +53,7 @@ body {
 
 .instruction-container {
   border-style: solid;
+  border-radius: 10%;
   width: 20em;
   height: 20em;
   display: inline-block;
@@ -140,7 +142,7 @@ body {
 }
 
 .works-container {
-  padding-bottom: 3em;
+  padding-bottom: 1em;
 }
 
 @media screen and (max-width: 400px) {
