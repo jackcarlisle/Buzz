@@ -12,7 +12,7 @@ let Slogan = React.createClass({
           <h2>Welcome to the Hava App!</h2>
         </div>
         <div className='slogan-text'>
-          <p>We know it's cold but it's time stop being a hermit! Join us in March in SW London when we will give you the perfect reason to leave the house and hit one of your best local bars!</p>
+          <p>We know it's cold but it's time stop being a hermit! Join us in March in SW London when we give you the perfect reason to hit one of your best local bars!</p>
         </div>
       </div>
     );
