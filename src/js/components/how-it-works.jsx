@@ -16,7 +16,7 @@ let HowItWorks = React.createClass({
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-phone btn-lg icon'></div>
-                <div>Then all you have to do is generate the unique Hava code for that bar, make your way there and show when ordering</div>
+                <div>Then all you have to do is show the unique Hava code for that bar when ordering</div>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-glass btn-lg icon'></div>
