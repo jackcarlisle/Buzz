@@ -4,7 +4,7 @@ let HowItWorks = React.createClass({
   render: function() {
     return (
       <div className='works-container'>
-        <h2>So how does it work?</h2>
+        <h2>How does it work?</h2>
         <div className='glyphicon glyphicon-arrow-down btn-lg'></div>
         <div className='glyphicon glyphicon-arrow-down btn-lg'></div>
         <div className='row'>
