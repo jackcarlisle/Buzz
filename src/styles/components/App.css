@@ -36,6 +36,14 @@ body {
   margin-bottom: 0.5em;
 }
 
+.email-link {
+  color: white;
+}
+
+.email-link:hover {
+  color: #474747;
+}
+
 .go-on {
   margin-bottom: 2em;
 
