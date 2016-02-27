@@ -13,11 +13,11 @@ let Slogan = React.createClass({
         </div>
         <div className='slogan-text'>
           <p>It's nearly time for our pilot, bringing you Balham's best bars and an even better reason to go!</p>
-          <p>If you live in London, make sure you click HERE so you don't miss out...</p>
-          <p>Clock's ticking you should probably do that now...</p>
-          <p className='button'>
+          <p>If you live in London, make sure you click the button below so you don't miss out...</p>
+          <a href='http://hava-mvp.herokuapp.com/#/?_k=mob2dt' className='button'>
             <span>press me</span>
-          </p>
+          </a>
+          <p>Do it...you know you want to</p>
         </div>
       </div>
     );
