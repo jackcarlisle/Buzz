@@ -18,6 +18,62 @@ body {
   margin-bottom: 1em;
   margin-top: 2em;
 }
+.button {
+    top: 100px;
+    left: 200px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+
+    -webkit-border-radius: 10px;
+
+
+
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+}
+
+.button span {
+    background-color: #474747;
+
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    margin-top: 1em;
+
+    color: #76EEC6;
+    text-transform: uppercase;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+        .button span:hover {
+            color: #fff;
+            text-shadow: 0px -1px #474747;
+            cursor: pointer;
+        }
+
+        .button:active {
+            -webkit-box-shadow:
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
+
+
 
 .drop {
   width: 41%;

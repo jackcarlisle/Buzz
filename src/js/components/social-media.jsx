@@ -9,7 +9,6 @@ let SocialMediaLinks = React.createClass({
         <div className='email'>
           <a className="email-link" href="mailto:office@hava-app.com">Email us at office@hava-app.com</a>
         </div>
-        <div className='go-on'>do it...you know you want to</div>
         <div className='row social'>
           <a href="https://www.instagram.com/thehavaapp/">
             <img className='icon-in' src="https://cdn1.iconfinder.com/data/icons/simple-icons/4096/instagram-4096-black.png"/>

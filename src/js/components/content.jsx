@@ -179,7 +179,7 @@ let Content = React.createClass({
 
       return (
         <div>
-        <h3 className='buffer'>Enter your details below so we can let you know when we're ready to rock!</h3>
+        <h3 className='buffer'>Enter your details below so we can keep you updated on all things Hava!</h3>
         {this.state.detailsSubmitted ? submittedText : submitForm}
         </div>
       );
