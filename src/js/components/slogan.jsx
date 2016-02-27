@@ -12,7 +12,12 @@ let Slogan = React.createClass({
           <h2>Welcome to the Hava App!</h2>
         </div>
         <div className='slogan-text'>
-          <p>Join us in March in SW London when we give you the perfect reason to hit one of your best local bars!</p>
+          <p>It's nearly time for our pilot, bringing you Balham's best bars and an even better reason to go!</p>
+          <p>If you live in London, make sure you click HERE so you don't miss out...</p>
+          <p>Clock's ticking you should probably do that now...</p>
+          <p className='button'>
+            <span>press me</span>
+          </p>
         </div>
       </div>
     );
