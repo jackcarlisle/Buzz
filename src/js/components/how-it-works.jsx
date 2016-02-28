@@ -23,6 +23,8 @@ let HowItWorks = React.createClass({
                 <div>The rest is up to you, but Hava great time on us! (see what we did there...)</div>
                 <br/>
               </div>
+              <div className='web-app'>At this stage for the pilot we are operating as a mobile web app. But don't worry, you'll still get the same great bars for the same great prices.</div>
+              <div>Once we're up and running on the app store you'll be the first to know you cheeky monkey!</div>
             </div>
           </div>
       </div>
