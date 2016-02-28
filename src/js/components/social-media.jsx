@@ -13,7 +13,7 @@ let SocialMediaLinks = React.createClass({
           <a href="https://www.instagram.com/thehavaapp/">
             <img className='icon-in' src="https://cdn1.iconfinder.com/data/icons/simple-icons/4096/instagram-4096-black.png"/>
           </a>
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/havaapp/">
             <img className='icon-fb' src="https://vectorlogofree.com/wp-content/uploads/2014/07/25305-facebook-sign-of-letter-f-inside-a-black-rounded-square-shape-icon-vector-icon-vector-eps.png"/>
           </a>
           <a href="https://twitter.com/thehavaapp">
