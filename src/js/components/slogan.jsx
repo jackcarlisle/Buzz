@@ -15,7 +15,7 @@ let Slogan = React.createClass({
           <p>It's nearly time for our pilot, bringing you Balham's best bars and an even better reason to go!</p>
           <p>If you live in London, make sure you click the button below so you don't miss out...</p>
           <a href='http://hava-mvp.herokuapp.com/#/?_k=mob2dt' className='button'>
-            <span>press me</span>
+            <span>sign in</span>
           </a>
           <p>Do it...you know you want to</p>
         </div>

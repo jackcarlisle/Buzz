@@ -4,7 +4,7 @@ let SocialMediaLinks = React.createClass({
   render: function() {
 
     return (
-      <div>
+      <div className='social-block'>
         <h4>Are you a business? Get on our radar!</h4>
         <div className='email'>
           <a className="email-link" href="mailto:office@hava-app.com">Email us at office@hava-app.com</a>
