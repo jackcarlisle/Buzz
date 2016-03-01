@@ -186,7 +186,7 @@ body {
 }
 
 .slogan-container {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   padding-top: 7em;
   text-align: center;
 }
@@ -199,10 +199,13 @@ body {
   font-size: 1.1em;
 }
 
+.social-block {
+  margin-top: 5em;
+}
+
 .text-container {
   text-align: center;
   width: 100%;
-  padding-top: 2em;
 }
 
 .works-container {
