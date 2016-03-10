@@ -12,8 +12,8 @@ let Slogan = React.createClass({
           <h2>Welcome to the Hava App!</h2>
         </div>
         <div className='slogan-text'>
-          <p>It's nearly time for our pilot, bringing you Balham's best bars and an even better reason to go!</p>
-          <p>If you live in London, make sure you click the button below so you don't miss out...</p>
+          <p>Our pilot is now live! Bringing you Balham's best bars and an even better reason to go!</p>
+          <p>Make sure you click the sign in button below so you don't miss out...</p>
           <a href='http://hava-mvp.herokuapp.com/#/?_k=mob2dt' className='button'>
             <span>sign in</span>
           </a>
