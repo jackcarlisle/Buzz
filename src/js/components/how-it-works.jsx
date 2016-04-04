@@ -11,20 +11,20 @@ let HowItWorks = React.createClass({
           <div className='text-container'>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-flash btn-lg icon'></div>
-                <div>Our bars will text you when they have a special offer for Hava users</div>
+                <div>The app will show you which drinks are being promoted at a particular time</div>
                 <br/>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-phone btn-lg icon'></div>
-                <div>Then all you have to do is show the unique Hava code for that bar when ordering</div>
+                <div>All you have to do is order that drink and show your unique QR code at the bar when ordering</div>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-glass btn-lg icon'></div>
-                <div>The rest is up to you, but Hava great time on us! (see what we did there...)</div>
+                <div>The rest is up to you</div>
+                <br/>
                 <br/>
               </div>
-              <div className='web-app'>At this stage for the pilot we are operating as a mobile web app. But don't worry, you'll still get the same great bars for the same great prices.</div>
-              <div>Once we're up and running on the app store you'll be the first to know you cheeky monkey!</div>
+              <div className='web-app'>In the meantime, if you're looking for more information on Hava, or are interested in signing up either as a business or customer, please stick your details into the boxes below and we'll be in touch.</div>
             </div>
           </div>
       </div>

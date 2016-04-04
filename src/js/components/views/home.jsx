@@ -13,9 +13,12 @@ let Home = React.createClass({
     return (
       <div>
         <NavBar />
-        <Slogan />
-        <HowItWorks />
-        <Social />
+        <div className='background'>
+          <Slogan />
+          <HowItWorks />
+          <Content url='/submitted'/>
+          <Social />
+        </div>
       </div>
     );
   }
