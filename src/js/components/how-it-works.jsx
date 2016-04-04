@@ -24,7 +24,7 @@ let HowItWorks = React.createClass({
                 <br/>
                 <br/>
               </div>
-              <div className='web-app'>In the meantime, if you're looking for more information on Hava, or are interested in signing up either as a business or customer, please stick your details into the boxes below and we'll be in touch.</div>
+              <div className='web-app'>In the meantime, if you're looking for more information on Hava, or are interested in signing up either as a business or customer, please stick your details into the boxes below and we'll be in touch. <br/> Have a good day gorgeous.</div>
             </div>
           </div>
       </div>
