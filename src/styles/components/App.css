@@ -4,9 +4,8 @@ background: -webkit-linear-gradient(top, rgba(0,0,0,0.78) 4%,rgba(0,0,0,0.78) 11
 background: linear-gradient(to bottom, rgba(0,0,0,0.78) 4%,rgba(0,0,0,0.78) 11%,rgba(0,0,0,0.8) 24%,rgba(0,0,0,0.81) 29%,rgba(0,0,0,0.7) 46%,rgba(0,0,0,0.65) 54%,rgba(0,0,0,0.76) 73%,rgba(0,0,0,0.75) 75%,rgba(0,0,0,0.71) 90%,rgba(0,0,0,0.7) 91%,rgba(0,0,0,0.65) 99%,rgba(0,0,0,0.87) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7000000', endColorstr='#de000000',GradientType=0 ); /* IE6-9 */
 }
-
 .backgroundContainer {
-  background-image: url("https://cloud.githubusercontent.com/assets/12450298/14259919/0cf10308-faa1-11e5-8a8a-401c58151267.jpg");
+  background-image: url("https://cloud.githubusercontent.com/assets/12450298/14452542/3d393440-0087-11e6-858b-ac3654e8ddeb.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
