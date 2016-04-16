@@ -218,7 +218,7 @@ body {
 }
 
 .slogan-text {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .social-block {
@@ -283,10 +283,13 @@ body {
     padding-top: 4em;
   }
 
+  .slogan-paragraph {
+    font-size: 2em;
+  }
+
   .slogan-text {
     width: 80%;
     margin-left: 2em;
-    font-size: 1em;
   }
 }
 

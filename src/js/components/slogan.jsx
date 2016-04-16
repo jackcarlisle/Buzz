@@ -12,13 +12,9 @@ let Slogan = React.createClass({
           <h2>Welcome to the Hava App!</h2>
         </div>
         <div className='slogan-text'>
-          <p>We know what you’re thinking, the choices are endless! New brands are popping up everywhere, and it’s getting beyond confusing!<br/>
-          As a result, you end up drinking the same old stuff, or ask the barman for the first thing you see… </p>
-          <p>That’s where we come in... <br/> Hava will bring you the best brands, in the best bars, for the best prices… Could this get any better?!</p>
-          <p>We work with some of the newest and most exciting brands to ensure that you are able to find them. <br/>
-          Some of the finest drinks in the country have yet to be fully unearthed and we think it’s about time that changed!</p>
-          <p>After a phenomenal beta pilot in March, the team have listened, taken onboard your feedback, and now it’s time for action. <br/>
-           The Hava App will be ready to launch in the summer of 2016…</p>
+          <div className='slogan-paragraph'>Launching in summer 2016, Hava will bring you the most exciting drinks brands in London’s best bars.</div>
+          <div className='slogan-paragraph'>With so many new drinks appearing on the market, Hava have decided to help you discover the finest amongst them at an even better price!</div>
+          <div className='slogan-paragraph'>Hang in there. We’re coming soon.</div>
         </div>
       </div>
     );
