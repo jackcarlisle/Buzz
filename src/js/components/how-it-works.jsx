@@ -11,7 +11,7 @@ let HowItWorks = React.createClass({
           <div className='text-container'>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-flash btn-lg icon'></div>
-                <div>The app will list the Hava bars and drink specials that are in your locality</div>
+                <div>The app will list the Hava bars and drinks that are in your area</div>
               </div>
               <div className='instruction-container'>
                 <div className='glyphicon glyphicon-phone btn-lg icon'></div>
